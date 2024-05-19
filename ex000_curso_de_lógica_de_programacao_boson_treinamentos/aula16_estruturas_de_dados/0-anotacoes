@@ -1,0 +1,18 @@
+// Estruturas de dados
+- São formas de armazenamento e organização de dados de maneira que possam ser usados de forma mais eficiente
+
+// classificação dos dados(Basea-se nos tipos primitivos)
+- Homogêneas: mesmo tipo de dados
+- Heterogêneas: tipos de dados diferentes
+
+// As estrutras de dados
+- Arrays(vetores e matrizes)
+    - vetores: tem apenas uma dimensão
+        - Homogênea(tem dados de mesmo tipo)
+        - se acessar seus elementos pelo índice
+        - possuem tamanho fixo
+    - matrizes: tem duas ou mais dimensões
+- lista
+- fila
+- pilha
+- árvore

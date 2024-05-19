@@ -1,0 +1,26 @@
+Lógica de programação -> ciência do Racicínio
+
+Hardware -> parte física do computador(O que se pode tocar)
+Sofrware -> parte lógica do computador(O que se pode xingar)
+
+Programa -> conjunto de instruções organizadas que serve para resolver um problema utilizando um computador
+Linguagens de programação -> conjunto de regras predefinidas que serve para criar um programa de computador
+    - Linguagem de máquina: linguagem que o computador entende: 0 e 1 
+    - Linguagem de baixo nível: utilizam-se de instruões próximas as linguagens de máquina, mas que seres humanos entendem
+    - Linguagem de alto nível: linguagens  que as instruções estão bem próxima da comunicação humana
+
+Compilação: traduz o código fonte em um mais arquivos, sem a necessidade de novas compilações
+Interpretação: Os códigos são executados à médida que são traduzidos, assim, eles são intepretados toda vez que rodamos o programa 
+
+Sequência lógica: Passos ou tarefas orgarnizados de modo que resolvem um problema
+
+Algoritmo: Sequência de passos finito e ordenada, não ambígua que são executadas de maneira lógica para resolver um problema
+
+- Para representar um algoritmo
+    - Fluxuograma: Figuras gemotricas que simbolizam a entrada, o processamento e a saída de dados
+    - Diagrama de Chapin: diagrama de quadros que apresenta uma visão hierarquica e estruturada da lógica do programa
+    - Português estruturado(PseudoCódigo): Técnica narratica baseada em PDL(Linguagem de projeto de Programa), elabora algoritmos estruturados
+    que serão utilizados para a criação e desenvolvimento em uma linguagem de programação qualquer
+---------------------------------------------------------------------------------------------------------------------------------------------------
+VisualG -> Programa que serve para testarmos algoritmos escritos em Portugol
+// -> comentários(Código que não é compilado ou interpretado)
