@@ -1,0 +1,61 @@
+rotinas -> algo que se repete
+Obs.: elas são feitas na mesma área das variáveis
+--------------------------------------------------------
+procedimento nome_do_procedimento()
+inicio
+  bloco
+fim_procedimento
+--------------------------------------------------------
+Passagem por Valor: Nesse método, o valor do parâmetro é copiado para uma variável local dentro do procedimento.
+Assim, qualquer modificação feita na variável dentro do procedimento não afetará a variável original fora do procedimento
+
+Exemplo abaixo(é o que está dentro do parentesis)
+
+algoritmo "soma"
+var
+x, y: inteiro
+procedimento soma(a, b: inteiro)
+inicio
+  escreva(a, " + ", b, " = ", a + b)
+fimprocedimento
+inicio
+x <- 5
+y <- 4
+    soma(x, y)
+fimalgoritmo
+
+
+
+
+Passagem por referência  é onde uma função pode modificar diretamente o valor de uma variável passada como argumento, 
+em vez de apenas receber uma cópia do valor original.
+Obs.: no visualG usa-se o comando var dentro do parentesis
+
+exemplo abaixo
+algoritmo "semnome"
+
+var
+x, y: inteiro
+procedimento soma(var a, b: inteiro) -> para referência utiliza-se o var dentro do procedimento
+inicio
+  a <- a + 1
+  b <- b + 2
+  escreval("A soma vale", a + b)
+fimprocedimento
+inicio
+x <- 4
+y <- 8
+soma(x, y)
+escreva(x, y)
+fimalgoritmo
+
+Obs.: na passagem por valor, as variavéis globais não são alteradas
+na passagem por referência, as variavéis globais são alteradas
+
+Resumo: na passagem por valor apenas variáveis dentro do escopo local é alterada
+        na passagem por referência até valores de fora do escopo local podem ser alteradas
+-------------------------------------------------------------------------
+// escopo -> local onde uma determinada variável vai funcionar
+# variável global -> funciona em qualquer parte do programa
+# variável local -> funciona apenas em locais específicos dentro do programa
+-------------------------------------------------------------------------

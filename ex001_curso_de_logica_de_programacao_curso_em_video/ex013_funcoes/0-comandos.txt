@@ -1,0 +1,28 @@
+funcao nome_da_funcao(variaveis: tipo): tipo_de_retorno
+var(opicional)
+inicio
+   bloco de código
+   retorne valor
+fimfuncao
+   
+--------------------------------------------------------------------------------------------------------------------------------------------
+- passagem de parametro por valor: Os valores são alterados apenas localmente
+
+funcao nome_da_funcao(a, b: inteiro): inteiro // dentro do parentesis temos variáveis passadas por valor
+
+- passagem de parametro por referência: Os valores são alterados globalmente
+funcao nome_da_funcao(var a, b: inteiro) // o comando var dentro do parentesis indica que as variaveis estão passando como referencia
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+// Funções do VisualG
+
+// funções para tratamento de caractere
+
+compr(variavel) -> comprimento
+copia(variavel, inicio, quantidade_de_valores_que_vao_aparecer) -> cópia da string
+maiusc(variavel) -> string maiúscula
+minusc(variavel) -> string minúscula
+pos("valor", variavel) -> posição de inicio onde "valor" é encontrado
+asc(valor) -> retorna o valor da tabela ASCII
+carc(valor) -> retorna o caractere da tabela ASCII

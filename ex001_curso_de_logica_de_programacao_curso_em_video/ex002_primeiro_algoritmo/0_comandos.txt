@@ -1,0 +1,39 @@
+//Estrutura básica do algoritmo no VisualG
+algoritmo "nome_do_algoritmo"
+
+var
+//Aqui é onde vão as variáveis
+
+inicio
+//Aqui é onde costuma ir os blocos de código
+fimalgoritmo
+
+-----------------------------------------------------------------
+// -> isso é um comentário, ou seja, um código que não será executado
+----------------------------------------------------------------
+escreva("Ola, mundo!") // Serve para exibir dados para o usuário
+escreval("Ola, mundo!") // é o mesmo que o escreva, mas pula para a linha de baixo
+
+------------------------------------------------------------------
+variáveis -> é um lugar na memória do computador que guarda dados, porém esse dado tem apenas um tipo, e pode ser alterado no decorrer do programa
+sintaxe -> nome: tipo_da_variavel
+	   nome: caractere
+
+// Identificadores regras
+1- Deve começar com uma letra
+2- Os próximos podem ser letras ou números
+3- Não pode utilizar nenhum símbolo, exceto _
+4- Não pode conter espaços em branco
+5- Não pode conter letras com acentos
+
+// Tipos primitivos
+inteiro -> são valores númericos inteiros positivos e negativos
+real -> são valores númericos com vírgula(ponto flutuante)
+caractere ou caracter -> são textos ou valores que estão dentro de aspas duplas
+lógicos -> só existe o valor verdadeiro ou falso
+
+// Formatando a quantidade de números que vai aparecer depois do ponto
+variavel:5:quantidade_de_numeros_depois_da_virgula
+imc:5:2
+----------------------------------------------------------------
+

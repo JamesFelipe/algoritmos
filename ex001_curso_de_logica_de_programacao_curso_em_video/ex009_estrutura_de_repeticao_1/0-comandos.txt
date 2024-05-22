@@ -1,0 +1,5 @@
+enquanto expressão_verdadeira faça
+  bloco
+  incremento
+fim_enquanto
+---------------------------------------------------

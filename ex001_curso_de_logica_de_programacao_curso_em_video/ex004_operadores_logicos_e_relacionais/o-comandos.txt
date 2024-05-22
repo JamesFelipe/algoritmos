@@ -1,0 +1,20 @@
+// Operadores relacionais
+> maior
+< menor
+>= maior ou igual a
+<= menor ou igual a
+= igual
+<> diferente
+------------------------------------------------------------------------
+
+//Operadores lógicos
+e -> só verdadeira se ambas as intruções forem verdadeiras
+ou -> Verdadeira se ao menos uma das instruções forem verdadeiras, e sendo falso se ambas as instruções forem falsas
+nao -> inverte os valores
+
+
+------------------------------------------------------------------------
+// Ordem de procedência geral
+1 - Ariméticos( () ^ * / - +)
+2 - Relacionais - Todos
+3 - Lógicos( E OU NÂO)

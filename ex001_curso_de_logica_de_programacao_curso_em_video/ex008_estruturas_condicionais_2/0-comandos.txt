@@ -1,0 +1,27 @@
+se expressao entao
+  bloco
+  senao
+   se expressao entao
+     bloco
+     senao
+      se expressao entao
+        bloco
+      fimse
+      .
+      .
+      . 
+   fimse
+fimse
+----------------------------------------------------------------------
+
+escolha (variavel)
+  caso valor
+    bloco A
+  caso valor
+    bloco B
+  caso valor
+    bloco C
+  OutroCaso
+    bloco D
+fimescolha
+----------------------------------------------------------------------

@@ -1,0 +1,28 @@
+// estrutrura condicional simples
+
+se(expresao) entao:
+  bloco
+fimse
+-------------------------------------------------------------
+
+// estruturas condicionais compostas
+
+se (expresao)  entao
+  bloco
+senao
+  bloco
+fimse
+
+-------------------------------------------------------------
+
+// estruturas condicionais aninhadas
+
+se (situacao1) entao
+  bloco A
+senao
+  se (situacao 2) entao
+    bloco B
+  senao
+    Bloco C
+  fimse
+fimse

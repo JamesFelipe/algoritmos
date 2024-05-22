@@ -1,0 +1,4 @@
+para variavel <- inicio ate fim [passo salto] faca
+  bloco
+fimpara
+----------------------------------------------------

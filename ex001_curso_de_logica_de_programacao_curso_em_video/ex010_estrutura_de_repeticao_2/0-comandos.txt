@@ -1,0 +1,5 @@
+repita
+  bloco
+ate expressão
+---------------------------------------------
+limpatela -> serve para limpar a tela

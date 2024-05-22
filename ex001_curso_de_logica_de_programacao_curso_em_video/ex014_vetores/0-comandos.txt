@@ -1,0 +1,22 @@
+Variaveis compostas homegeneas-> variaveis compostas de vários espaços do mesmo tipo
+
+variaveis compostas homegeneas unidimensional(vetor): apenas um endereço(uma dimensão)
+----------------------------------------------------------------------
+nome_do_vetor: vetor[numero_inicial..numero_final] de tipo
+numeros : vetor[1..3] de inteiro
+
+// Para adiconar um valor no vetor
+n[posicao] <- valor
+
+// Adicionando todos os valores de uma ves
+para i <- valor_inicial ate valor_final faca
+  leia(n[i]) // lê-se n na posição i
+fimpara
+
+// Exibindo um valor do vetor
+escreva(vetor[posicao])
+
+// Exibindo todo o vetor
+para i <- valor_inicial ate valor_final faca
+   escreva(vetor[i])
+fimpara

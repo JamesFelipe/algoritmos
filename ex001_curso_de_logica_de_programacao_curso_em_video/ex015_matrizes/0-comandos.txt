@@ -1,0 +1,28 @@
+variaveis compostas multidimensionais(matrizes): duas dimensões, linhas e colunas
+------------------------------------------------------------
+algoritmo "semnome"
+
+var
+
+// Declarando a matriz
+matriz: vetor[1..2, 1..2] de inteiro
+linha, coluna: inteiro
+inicio
+
+// preenchendo a matriz
+para linha de 1 ate 2 faca
+  para coluna de 1 ate 2 faca
+    escreva("Digite o valor da linha e coluna: ")
+    leia(matriz[linha, coluna])
+  fimpara
+fimpara
+
+
+// Exibindo a matriz(Elementos lado a lado)
+para linha de 1 ate 2 faca
+ para coluna de 1 ate 2 faca
+  escreva(matriz[linha, coluna], " ")
+ fimpara
+ escreval("")
+fimpara
+fimalgoritmo

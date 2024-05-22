@@ -1,0 +1,30 @@
+leia(variavel) // o comando leia serve para ler um valor pelo teclado
+------------------------------------------------------------------------
+// operadores aritméticos
++ Adição
+- Subtração
+/ Divisão
+* Multiplicação
+\ Divisão inteira 
+% resto da divisão
+^ exponenciação
+
+// Ordem de precedência
+P Parêntesis
+E exponenciação
+M Multiplicação
+D Divisão(Multiplicação ou divisão o que vier primeiro)
+A Adição
+S Subtração(Adição ou subtração o que vier primeiro)
+-------------------------------------------------------------------------
+// Algumas Funções aritméticas do VisualG
+
+abs(valor) -> valor absoluto
+exp(base, expoente) -> exponenciação
+int(valor) -> valor inteiro
+RaizQ(valor) -> raiz quadrada
+Pi -> valor de pi
+sen(valor) -> Seno(radianos)
+cos(valor) -> Cosseno(radianos)
+tan(valor) -> tangente(radianos)
+GraupRad(valor) -> grau para radianos
