@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "varios_valores"
 var
 opcao: caractere
 soma, numero, cont_par, cont, menor: inteiro

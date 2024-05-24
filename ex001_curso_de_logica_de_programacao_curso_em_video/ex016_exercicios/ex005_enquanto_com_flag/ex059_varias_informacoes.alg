@@ -35,13 +35,13 @@ repita
       soma <- soma + idade
       media_homem <- soma / cont_homem
    fimse
-   escreva("Vocï¿½ quer continuar: [s/n] ")
+   escreva("Você quer continuar: [s/n] ")
    leia(resposta)
    limpatela
 ate (resposta = "n")
 
 escreval("A maior idade lida foi: ", maior)
 escreval("Foram cadastrados, ", cont_homem, " homens")
-escreval("A idade da mulher mais joven ï¿½: ", menor_mulher)
-escreval("A mï¿½dia de idade dos homens ï¿½: ", media_homem)
+escreval("A idade da mulher mais joven é: ", menor_mulher)
+escreval("A média de idade dos homens é: ", media_homem)
 fimalgoritmo

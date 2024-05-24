@@ -1,4 +1,4 @@
-// Cï¿½digo ChatGpt modificado
+// Código ChatGpt modificado
 Algoritmo "InformacoesPessoas"
 Var
    nome, sexo, nome_pessoa_mais_velha, nome_mulher_mais_jovem: caractere
@@ -26,7 +26,7 @@ Inicio
       Leia(sexo)
       total_pessoas <- total_pessoas + 1
       
-      // Calcula mï¿½dia de idade
+      // Calcula média de idade
       soma <- soma + idade
       media <- soma / total_pessoas
       
@@ -58,9 +58,9 @@ Inicio
 
 
 
-   Escreval("a) O nome da pessoa mais velha ï¿½: ", nome_pessoa_mais_velha)
-   Escreval("b) O nome da mulher mais jovem ï¿½: ", nome_mulher_mais_jovem)
-   Escreval("c) A mï¿½dia de idade do grupo ï¿½: ", media)
+   Escreval("a) O nome da pessoa mais velha é: ", nome_pessoa_mais_velha)
+   Escreval("b) O nome da mulher mais jovem é: ", nome_mulher_mais_jovem)
+   Escreval("c) A média de idade do grupo é: ", media)
    Escreval("d) Quantidade de homens acima de 30 anos: ", homens_acima_30)
    Escreval("e) Quantidade de mulheres abaixo de 18 anos: ", mulheres_abaixo_18)
 FimAlgoritmo

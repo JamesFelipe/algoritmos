@@ -23,11 +23,11 @@ enquanto (opcao <> "n") faca
    se (numeros % 2 = 0) entao
       cont_pares <- cont_pares + 1
    fimse
-   escreva("Vocï¿½ quer continuar? [S/N] ")
+   escreva("Você quer continuar? [S/N] ")
    leia(opcao)
 fimenquanto
-escreval("A soma dos valores digitados ï¿½: ", soma)
+escreval("A soma dos valores digitados é: ", soma)
 escreval("O menor valor digitado foi: ", menor)
-escreval("A mï¿½dia entre os valores ï¿½: ", media)
-escreval("Temos ", cont_pares, " nï¿½meros pares")
+escreval("A média entre os valores é: ", media:2:2)
+escreval("Temos ", cont_pares, " números pares")
 fimalgoritmo

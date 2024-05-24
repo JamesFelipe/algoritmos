@@ -16,11 +16,11 @@ enquanto (opcao <> "n") faca
    se (idade >= 21) entao
       cont_idade21 <- cont_idade21 + 1
    fimse
-   escreva("Vocï¿½ quer continuar?[S/N] ")
+   escreva("Você quer continuar?[S/N] ")
    leia(opcao)
    n <- n + 1
 fimenquanto
 escreval("Foram digitadas ", cont_idade)
-escreval("A mï¿½dia das idades digitadas ï¿½: ", media)
+escreval("A média das idades digitadas é: ", media)
 escreval("Temos ", cont_idade21, " com mais de 21 anos")
 fimalgoritmo

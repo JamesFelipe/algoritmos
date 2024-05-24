@@ -5,7 +5,7 @@ sexo: caracter
 peso, soma_mulher, media_mulher, maior_homem: real
 inicio
 maior_homem <- 0
-para c <- 1 ate 2 faca
+para c <- 1 ate 8 faca
   escreva("Digite o peso da pesssoa ", c, ": ")
   leia(peso)
   escreva("Digite seu sexo: [H/M] ")
@@ -31,6 +31,6 @@ para c <- 1 ate 2 faca
 fimpara
 escreval("Foram registradas ", cont_mulher, " mulheres")
 escreval("No total ", cont_homem100, " homens pesam mais de 100 KG")
-escreval("A mï¿½dia de peso das mulheres ï¿½: ", media_mulher)
-escreval("O maior maior peso entre homens ï¿½ de: ", maior_homem)
+escreval("A média de peso das mulheres é: ", media_mulher)
+escreval("O maior maior peso entre homens é de: ", maior_homem)
 fimalgoritmo

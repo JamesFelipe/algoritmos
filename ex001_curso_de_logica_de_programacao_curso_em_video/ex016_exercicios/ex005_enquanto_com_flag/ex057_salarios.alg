@@ -10,7 +10,7 @@ soma_mulher <- 0
 repita
 escreva("Digite seu sexo: [m/f] ")
 leia(sexo)
-escreva("Digite seu salï¿½rio: ")
+escreva("Digite seu salário: ")
 leia(salario)
 se (sexo = "m") entao
  soma_homem <- soma_homem + salario
@@ -19,9 +19,9 @@ senao
    soma_mulher <- soma_mulher + salario
  fimse
 fimse
-escreva("Vocï¿½ quer continuar?[s/n] ")
+escreva("Você quer continuar?[s/n] ")
 leia(respota)
 ate (respota = "n")
-escreval("No total serï¿½o pago para os homens: ", soma_homem, "R$")
-escreval("No total serï¿½o pago para as mulheres: ", soma_mulher, "R$")
+escreval("No total serão pago para os homens: ", soma_homem, "R$")
+escreval("No total serão pago para as mulheres: ", soma_mulher, "R$")
 fimalgoritmo

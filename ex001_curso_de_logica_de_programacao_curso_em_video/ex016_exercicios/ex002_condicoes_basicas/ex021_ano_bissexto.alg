@@ -7,8 +7,8 @@ escreva("Digite o ano: ")
 leia(ano)
 escreval("Ano, ", ano)
 se (ano % 4 = 0) e (ano % 100 <> 0) ou (ano % 400 = 0) entao
-   escreva("ï¿½ bissexto")
+   escreva("Ano bissexto")
 senao
-   escreva("Nï¿½o ï¿½ Bissexto")
+   escreva("Não é Bissexto")
 fimse
 fimalgoritmo

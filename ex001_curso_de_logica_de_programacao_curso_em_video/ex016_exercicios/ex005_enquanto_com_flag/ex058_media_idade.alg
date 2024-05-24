@@ -15,5 +15,5 @@ ate (idade = 999)
 soma <- soma - 999
 media <- soma / (cont_pessoa - 1)
 escreval("Temos ", cont_pessoa - 1, " alunos")
-escreval("A mï¿½dia de idade do grupo ï¿½: ", media)
+escreval("A média de idade do grupo é: ", media:2:2)
 fimalgoritmo
