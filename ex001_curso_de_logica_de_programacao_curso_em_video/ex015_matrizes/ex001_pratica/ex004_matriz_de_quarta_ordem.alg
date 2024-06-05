@@ -9,7 +9,7 @@ sdp <- 0
 p2l <- 1
 para l de 1 ate 4 faca
  para c de 1 ate 4 faca
-   escreva("Digite um nï¿½mero para a posiï¿½ï¿½o: (", l, ", ", c, "): ")
+   escreva("Digite um número para a posição: (", l, ", ", c, "): ")
    leia(m[l, c])
    se(l = c) entao
      sdp <- sdp + m[l, c]
@@ -36,7 +36,7 @@ para l <- 1 ate 4 faca
      mai3c <- m[l, 3]
    fimse
 fimpara
-escreval("A soma da diagonal principal ï¿½: ", sdp)
-escreval("O Produto dos valores da segunda linha ï¿½: ", p2l)
-escreval("O maior valor da terceira coluna ï¿½: ", mai3c)
+escreval("A soma da diagonal principal é: ", sdp)
+escreval("O Produto dos valores da segunda linha é: ", p2l)
+escreval("O maior valor da terceira coluna é: ", mai3c)
 fimalgoritmo

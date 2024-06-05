@@ -9,7 +9,7 @@ inicio
 //Preenchedo os valores
 para linha de 1 ate 3 faca
    para coluna de 1 ate 3 faca
-      escreva("Digite um valor inteiro para a posiï¿½ï¿½o (", linha, ",", coluna, "): " )
+      escreva("Digite um valor inteiro para a posição (", linha, ",", coluna, "): " )
       leia(matriz[linha, coluna])
    fimpara
 fimpara
