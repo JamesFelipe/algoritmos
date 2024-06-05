@@ -1,0 +1,237 @@
+Algoritmo: Sequência de passos(instruções) finitas para resolução de um problema
+Obs.: existem infinitas formas de resolver um problema
+
+Algoritmos não computacionais: não podem ser resolvidos usando um computador,
+por exemplo um computador não consegue montar um Monza
+
+Algoritmo computacional = programa
+
+programa: são varias instruções passo a passo que mostram o que o computador tem que fazer por meio
+de linguagens de programação
+
+dado: são valores(números, nomes, etc...)
+Código: comandos ou instruções que usaremos para manipular os dado
+
+Português estruturado = Portugol
+
+Sintaxe: conjunto de palavras com regras
+---------------------------------------------------------------------------------------------------------
+// Isso é um comentário, ou seja, algo que não será compilado, mas pode ser útil aos programadores
+-----------------------------------------------------------------------------------------------------------------------
+
+- Operadores
+Operadores aritméticos                   |  Operadores relacionais
+
++ Adição                                 |  > maior      
+- Subtração                              |  < menor
+* Multiplicação                          |  >= maior ou igual a
+/ Divisão                                |  <= menor ou igual a
+\ Divisão inteira                        |  = igual
+^ ou exp(base, expoente) Exponenciação   |  <> diferente
+% Módulo(Resto da divisão)               |
+
+modularização: divisão de uma expressãoa em partes
+- Prioridades das operações aritméticas(O que irá executar primeiro)
+PEMDAS -> parentesis, Exponenciação, Multiplicação ou divisão, Adição ou Subtração -> nessa ordem
+
+Operadores Lógicos
+e: só verdadeiro se ambas as partes forem verdadeiras
+ou: só verdadeiro se ao menos uma das partes forem verdadeiras
+nao: inverte os valores lógicos
+
+- Prioridades das operações lóicas(O que irá executar primeiro)
+e, ou, not -> nessa ordem
+
+- Prioridades das operações gerais(O que irá executar primeiro)
+operações aritméticas, operações relacionais, operações lógicas <- nessa ordem
+
+
+
+tabela verdade: mostra o resultado da aplicação dos valores lógicos
+------------------------------------------------------------------------------------------------------------------------
+
+- Estrutura geral de um algorimto em VisualG
+
+algorimto "nome_do_algoritmo"
+var
+//área de variáveis
+
+inicio
+// área para blocos de códigos
+fimalgoritmo
+
+-----------------------------------------------------------------------------------------------------------------------
+
+- Variável: local na memória do computador que serve para guardar dados, podendo
+serem alterados no decorrer do programa, ele tem apenas um tipo
+sintaxe: variavel: tipo
+OBS.: só ter várias variaveis na mesma linha, basta separar por vírgula
+sintaxe: variavel1, variavel2,...: tipo
+
+- Regras para nomeação de variáveis
+    - Nomes de variáveis não podem ser iguais a palavras reservadas da linguagem
+      - palavra reservada: valores especificos da linguagem
+    - nomes de variaveis devem possuir como primeiro caractere letra ou underline(_), e os outros caracteres podem ser
+    números e sublinhados
+    - nomes de variáveis devem ter no máximo 127 caracteres
+    - nomes de variáveis não podem conter espaços em branco
+    - em portugol não há diferença entre maiúscula e minúscula(São o mesmo)
+-----------------------------------------------------------------------------------------------------------------------
+<- Símbolo de atribuição
+ex.: valor <- 50 // Lê-se valor recebendo 50
+-----------------------------------------------------------------------------------------------------------------------
+escreva("valor") // comando de saída(exibe dados na tela)
+escreval("valor") // comando de saída, porém ao ser finalizado pula para a linha debaixo
+leia(variavel)// serve para ler algo digitado no teclado
+----------------------------------------------------------------------------------------------------------------------
+- Passos para a construção de um algorimto
+1 - Entendimento do problema
+2- Elaboração da solução do problema
+3- codificação
+----------------------------------------------------------------------------------------------------------------------
+- Estrutura Condicional(Decisões)
+
+- Estrutura Simples
+se <condição> entao                                 
+  <bloco de códigos se a condição for verdadeira>
+fimse
+
+- Estrutura Composta
+se <condição> entao                                 
+  <bloco de códigos se a condição for verdadeira>
+senao
+  <bloco de códigos se a condição for falsa>
+fimse
+
+----------------------------------------------------------------------------------------------------------------------
+Escolha.... caso
+
+escolha <variavel>
+  caso 1, 2,...,
+    //bloco de códigos
+  caso 3, 4....
+    //bloco de códigos
+  .
+  .
+  .
+  outrocaso
+    //bloco de códigos
+fimescolha
+----------------------------------------------------------------------------------------------------------------------
+- Estruturas de repetição
+"Algo que se repete"
+
+- repita...ate
+repita 
+  //bloco de comandos
+  //incremento ou decremento
+ate (condição lógica ou relacional)
+
+- enquanto...faça
+enquanto <condição lógica ou relacional> faça
+ //bloco de comandos
+ //incremento ou decremento
+ fimenquanto
+
+ incremento: adicionar um valor a algo
+ decremento: tirar o valor de algo
+
+ - para...faça
+ para variavel <- inicio ate valor_final passo incremento/decremento faca
+   // bloco de comandos
+  fimpara
+
+para variavel de inicio ate valor_final
+  // bloco de código
+fimpara
+---------------------------------------------------------------------------------------------------------------------
+Variáveis compostas homegêneas(Variável indexadas)
+"Varios valores de um mesmo tipo em uma única variável"
+
+- Variável indexadas unidimensionais(Vetores)
+<identificador>: vetor[inicio..fim] de <tipo>
+
+- para adicionar/modificar um valor no vetor
+numero[inidice_existente] <- valor
+
+- Variavel indexadas bidimensionais(Matrizes)
+"Variável indexada com duas dimensões"
+<identificador>: vetor[<valor_inicial..valor_final>, <<valor_inicial..valor_final>] de tipo
+
+- para adicionar/modificar um valor no vetor
+numero[posicao1, posicao2] <- valor 
+----------------------------------------------------------------------------------------------------------------------
+Subalgoritmos
+"Trechos de algoritmos, onde invés de escrever um algoritmo grande se escreve vários menores"
+"Podem ser procedimentos que não retornam valores e funções que retornam valores"
+
+procedimento nome_do_procedimento(variaveis_do_procedimento: tipo)
+var(opcional)
+inicio
+  //Código
+fimprocedimento
+----------------------------------------------------------------------------------------------------------------------
+funcao nome_da_funcao(parametros: tipo): tipo_de_retorno_da_funcao
+var//Opcional
+  //area de variaveis de dentro da função
+inicio
+  // Bloco de comandos da função
+fimfuncao
+
+- Passagem de parametros por referêcia
+"utiliza-se o comando var antes dos paramentros"
+funcao nome(var variavel: tipo): tipo
+
+- Passagem de parametros por valor 
+"São parametros comuns"
+funcao nome(varial: tipo): tipo
+
+- variável local: variaveis que funcionam apenas dentro de um escopo especifico
+ex.: funções de dentro de uma função
+- variável global: são variáveis que funcionam durante todo o programa, não sendo necessário se preocupar com o escopo
+ex.: as variáveis das áreas de variáveis
+
+- comando retorne: serve para retorna algo da função
+
+OBS.: para utilizar funções preciso passa ela para alguma variável
+ex.: r <- funcao(valor)
+     escreva(r)
+
+- procedimentos(Subrotinas)
+procedimento nome_do_procedimento()
+inicio
+  //Bloco de código
+fimprocedimento
+- a passagem por referêcia nos procedimentos funciona igual das funções utilizam o var antes dos paramentros
+funcionam igual a função, porém não retorna valores
+
+- Funções recursivas
+" são funções que usam dele mesmo para resolver problemas, é como se ele entrasse nele mesmo para retornar algo"
+
+- Funções internas do VisualG
+abs(valor)// valor absoluto
+arcos(valor)// arco cosseno
+arcsen(valor)// arco seno
+arctan(valor)// arco tangente
+asc(valor_inteiro) // retorna o código asc
+compr(caractere) // tamanho do caractere
+copia(variavel, inicio, fim) // copia com posições do caractere
+cos(valor) //cosseno
+cotan(valor) //Co-tangente
+exp(base, expoente) // potência
+graupad(valor) //converte grau para radiano
+int(valor) //valores inteiros
+log(valor) //logaritmo
+logn(valor) //logaritmo de n
+maius(caractere) // caractere maiúsculo
+minusc(caractere) // caractere minúsculo
+numpcarac(valor) // número para caractere
+pi // valor da constante pi
+pos("valor", variavel) // posição do valor
+quad(valor) // quadrado de um número
+radpgrau(valor) //radianos para graus
+raizq(valor) //raiz quadrado de um valor
+rand(valor) //gerador de números aleatorios entre 0 e 1
+randi(valor) //gerador de números aleatorios inteiros com um limite determinado
+sen(valor) // seno
+tan(valor) // tangente

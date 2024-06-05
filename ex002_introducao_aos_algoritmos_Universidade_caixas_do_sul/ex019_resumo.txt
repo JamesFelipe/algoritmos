@@ -1,0 +1,121 @@
+// Forma geral de um algoritmo
+algoritmo "nome_do_algoritmo"
+var
+
+// Definição de variável
+nome_da_variavel: tipo
+inicio
+
+fimalgoritmo
+--------------------------------------------------------------------------------------------------------------------
+Tipos
+inteiro: números inteiros
+real: números com ponto flutuante
+caractere ou literal: cadeia de caracteres
+logicio: só retorna verdadeiro ou Falso
+--------------------------------------------------------------------------------------------------------------------
+- Operador de atribuição <-
+nome <- "james" // Lê-se nome recebendo James
+
+- Operadores aritméticos
++ adição 
+- Subtração
+* Multiplicação
+/ Divisão 
+\ Divisão inteira
+^ Exponenciação
+% Resto da divisão
+
+- Operadores relacionais
+> Maior
+< Menor
+>= Maior ou igual
+<= Menor ou igual
+= igual
+<> diferente
+
+- Operadores lógicos
+E (Ambas as condições precisão ser verdadeiras)
+OU (Pelo menos uma das condições tem que ser verdadeira)
+Negação (Nega os valores)
+--------------------------------------------------------------------------------------------------------------------
+// Isso é uma linha de comentário
+--------------------------------------------------------------------------------------------------------------------
+- Comando de entrada e saída
+escreva() escreve algo na tela
+escreval() escreve algo na tela e pula para a linha debaixo
+leia() lê dados pelo teclado
+
+--------------------------------------------------------------------------------------------------------------------
+- Estrutura condicional
+se (condicao) entao
+  // Bloco
+fimse
+
+
+se (condicao) entao
+  //Bloco
+senao
+  //Bloco do False
+fimse
+
+
+escolha variavel
+caso valor1
+  bloco
+caso valor2
+  bloco
+.
+.
+.
+outrocaso
+   bloco
+fimescolha
+--------------------------------------------------------------------------------------------------------------------
+- Estrutura de repetição
+repita
+  Bloco
+ate (condicao)
+
+
+enquanto (condição) faca
+   bloco
+fimenquanto
+
+
+para varaivel_de_controle de valor_inicial ate valor_final passo valor faca
+   Bloco
+fimpara
+
+--------------------------------------------------------------------------------------------------------------------
+- Variáveis Indexadas(Vetores)
+nome_do_vetor: vetor[valor_inicial..valor_final] de tipo_de_Dado
+numeros: vetor[1..10] de inteiro
+
+// Adicionando valores no vetor
+nome_do_vetor[posicao] <- valor
+numeros[2] <- 1
+--------------------------------------------------------------------------------------------------------------------
+- Variaveis indexadas Bidmensionais(Matrizes)
+nome_da_matriz: vetor[valor_inicial..valor_final, valor_inicial_valor_final] de tipo_de_Dado
+numeros: vetor[1..10, 1..10] de inteiro
+
+// Adicionando valores na matriz
+nome_da_matriz[linha, coluna] <- valor
+numeros[1, 1] <- 1
+
+--------------------------------------------------------------------------------------------------------------------
+- Procedimento(Resumindo são funções que não retornam)
+procedimento nome(parametros: tipo)
+var(opcional)
+inicio
+  bloco
+fimprocedimento
+
+- funcao(Elas retornam)
+funcao nome(parametros: tipo): tipo_de_retorno_da_função
+var(opcional)
+inicio
+  bloco
+  retorne valor
+fimfuncao
