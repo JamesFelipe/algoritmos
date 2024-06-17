@@ -1,1 +1,3 @@
 - Não faço ideia de onde tirei esses exercícios, mas estão aqui LOL...
+
+- Em desenvolvimento
